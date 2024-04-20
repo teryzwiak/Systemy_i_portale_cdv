@@ -1,0 +1,16 @@
+
+{% extends "base.html" %} {% block title%} Add contact list {% endblock %}
+{% block content%}
+<br /><br /><br />
+<div class="flex-1 items-center max-w-screen-sm mx-auto mb-3 space-y-4 sm:flex sm:space-y-0">
+    <div class="relative w-full">
+      <div class="items-center justify-center max-w-xl mx-auto">
+            {% for name in names %}
+            <p>{{name}}</p>
+            {% endfor %}
+      </form>
+    </div>
+    </div>
+  </div>
+  <br />
+{% endblock %} 
